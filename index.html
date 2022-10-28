@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Индитур</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style-dominant.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Индитур</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#info">О компании</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Отзывы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#subscribe">Подобрать тур</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Введите страну" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Искать</button>
+                </form>
+          </div>
+        </div>
+    </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/austria.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/japan.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/thailand.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+      </div>
+      <section class="story" id="story">
+        <div id="info" class="container">
+            <h2 class="section-title">О компании</h2>
+            <div class="story-content">
+                <img class="info-img" src="img/info.jpg" alt="company">
+                <p class="story-text">Туры стоят немалых денег, а ваше время – и того больше! Поэтому мы создали сервис, благодаря которому вы можете сэкономить свои ценные ресурсы. Закажите готовый тур онлайн. Все необходимые детали путешествия мы сообщим вам по телефону, а документы пришлем на email. С Индитур вы всегда будете уверены, что отдых пройдет на ура!</p>
+            </div>
+        </div>
+    </section>
+    <section class="blog" id="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы</h2>
+            <div class="blocks">
+                <div class="block">
+                    <h3>Руины Тулума</h3>
+                    <img class="block-img" src="img/tulum.jpeg" alt="Руины майя">
+                    <p class="block-text">Руины майянского города Тулум потрясают воображение, как и другие местные локации, нам вполне хватило 2,5 часов для неспешного осмотра территории...</p>
+                    <a href="#" target="_blank">
+                        <button class="block-btn">Подробнее</button>
+                    </a>
+                </div>
+                <div class="block">
+                    <h3>Вулкан Тейде</h3>
+                    <img class="block-img" src="img/teyde.jpg" alt="Вид вулкана">
+                    <p class="block-text">Вулкан виден со всех концов острова - конечно, если нет облаков. Красивый вулкан, а также окрестности. Нам повезло с погодой...</p>
+                    <a href="#" target="_blank">
+                        <button class="block-btn">Подробнее</button>
+                    </a>
+                </div>
+                <div class="block">
+                    <h3>Пляж Матира</h3>
+                    <img class="block-img" src="img/matira.jpg" alt="Дикий пляж">
+                    <p class="block-text">Чистая вода. Вид и шум океана. Зелень подступает прямо к берегу. Можно провести весь день. Поблизости есть магазин, чтобы купить поесть и попить...</p>
+                    <a href="#" target="_blank">
+                        <button class="block-btn">Подробнее</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mail" id="subscribe">
+        <div class="container">
+            <h2 class="mail-text">Персональный подбор тура</h2>
+            <form action="#">
+                <input class="form" type="email" name="mail" placeholder="Введите email">
+            </form>
+            <div id="body_button">
+                <div class="button_hola"><span>Хочу тур!</span></div>
+            </div>
+        </div>
+        <footer class="footer" id="footer">
+            <div class="container">
+                <p class="credits">©Индитур 2022</p>
+            </div>
+        </footer>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
